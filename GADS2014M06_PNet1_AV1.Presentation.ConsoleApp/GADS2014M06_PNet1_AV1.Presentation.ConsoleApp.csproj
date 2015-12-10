@@ -4,15 +4,17 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{4DC6D19F-317E-4B64-80EC-9F0E270D06AA}</ProjectGuid>
-    <OutputType>Library</OutputType>
+    <ProjectGuid>{3C37FABC-3E56-4DD2-8850-3402C4D0EDA2}</ProjectGuid>
+    <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>GADS2014M06_PNet1_AV1.Domain</RootNamespace>
-    <AssemblyName>GADS2014M06_PNet1_AV1.Domain</AssemblyName>
+    <RootNamespace>GADS2014M06_PNet1_AV1.Presentation.ConsoleApp</RootNamespace>
+    <AssemblyName>GADS2014M06_PNet1_AV1.Presentation.ConsoleApp</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
     <DebugSymbols>true</DebugSymbols>
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
@@ -22,6 +24,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
     <DebugType>pdbonly</DebugType>
     <Optimize>true</Optimize>
     <OutputPath>bin\Release\</OutputPath>
@@ -40,14 +43,17 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Entidades\CanalTv.cs" />
-    <Compile Include="Entidades\Episodio.cs" />
-    <Compile Include="Entidades\FormatoAudioEnum.cs" />
-    <Compile Include="Entidades\Genero.cs" />
-    <Compile Include="Entidades\Pais.cs" />
-    <Compile Include="Entidades\Serie.cs" />
-    <Compile Include="Entidades\Sessao.cs" />
+    <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\GADS2014M06_PNet1_AV1.Domain\GADS2014M06_PNet1_AV1.Domain.csproj">
+      <Project>{4dc6d19f-317e-4b64-80ec-9f0e270d06aa}</Project>
+      <Name>GADS2014M06_PNet1_AV1.Domain</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
