@@ -13,7 +13,7 @@ namespace GADS2014M06_PNet1_AV1.Domain.Entidades
         public string Titulo { get; set; }
         public string Sinopse { get; set; }
         public DateTime DataExibicao { get; set; }
-        public TimeSpan Duracao { get; set; }
+        public int Duracao { get; set; }
         public string TipoArquivo { get; set; }
         /// <summary>
         /// Se é Dublado ou Linguagem Original
@@ -23,6 +23,6 @@ namespace GADS2014M06_PNet1_AV1.Domain.Entidades
         //relacionamento
 
         public int SerieId { get; set; }
-        public TYPE Type { get; set; }
+        
     }
 }
