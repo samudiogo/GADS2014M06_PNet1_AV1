@@ -40,7 +40,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Entidades\CanalTv.cs" />
     <Compile Include="Entidades\Genero.cs" />
+    <Compile Include="Entidades\Pais.cs" />
     <Compile Include="Entidades\Serie.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
