@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Runtime.ExceptionServices;
+using System.Text;
 
 namespace GADS2014M06_PNet1_AV1.Domain.Entidades
 {
@@ -13,6 +14,9 @@ namespace GADS2014M06_PNet1_AV1.Domain.Entidades
         public string Titulo { get; set; }
         public string Sinopse { get; set; }
         public DateTime DataExibicao { get; set; }
+        /// <summary>
+        /// Duração em minutos
+        /// </summary>
         public int Duracao { get; set; }
         public string TipoArquivo { get; set; }
         /// <summary>
@@ -23,6 +27,16 @@ namespace GADS2014M06_PNet1_AV1.Domain.Entidades
         //relacionamento
 
         public int SerieId { get; set; }
-        
+
+        public override string ToString()
+        {
+            var sb = new StringBuilder();
+            sb.AppendLine("Episódio:");
+            sb.AppendLine($"Id: {Id} - Titulo: {Titulo}");
+            sb.AppendLine($"Sinopse: {Sinopse}");
+            sb.AppendLine($"Data: {DataExibicao}\t| Duração: {Duracao}min\t| TIpo Arquivo: {TipoArquivo}");
+            sb.AppendLine($"Formato audio: {FormatoAudio}");
+            return sb.ToString();
+        }
     }
 }
