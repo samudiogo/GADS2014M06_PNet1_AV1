@@ -20,19 +20,26 @@
 
 ##### Então, para isso você vai:
 
-1 - Construir uma solução\
-2 - Organizar os projetos em pastas de solução (Apresentação e Domínio)\
-3 - Criar um projeto "Console Application" e um projeto "Class Library"\
-4 - ** Não esqueça de adicionar a referência do projeto "Class Library" no projeto "ConsoleApp"\
-5 - Organizar as entidades e demais classe em pastas, quando necessário.\
-6 - Criar as classes de entidades\
-7 - No Console Application, você deve:\
-*  instanciar um País e apresentar na tela seus dados. Acrescente uma instrução que me permita ler a informação, antes de prosseguir.\
-*  instanciar um Gênero e apresentar na tela seus dados. Acrescente uma instrução que me permita ler a informação, antes de prosseguir.\
-*  instanciar um "Canal de Tv" e apresentar na tela seus dados. Acrescente uma instrução que me permita ler a informação, antes de prosseguir.\
-* instanciar uma Série e apresentar na tela seus dados. Acrescente uma instrução que me permita ler a informação, antes de prosseguir.\
-* instanciar uma Sessão e apresentar na tela seus dados. Acrescente uma instrução que me permita ler a informação, antes de prosseguir.\
-* instanciar um Episódio e apresentar na tela seus dados. Acrescente uma instrução que me permita ler a informação, antes de prosseguir.\
+1 - Construir uma solução
+
+2 - Organizar os projetos em pastas de solução (Apresentação e Domínio)
+
+3 - Criar um projeto "Console Application" e um projeto "Class Library"
+
+4 - Não esqueça de adicionar a referência do projeto "Class Library" no projeto "ConsoleApp"
+
+5 - Organizar as entidades e demais classe em pastas, quando necessário.
+
+6 - Criar as classes de entidades
+
+7 - No Console Application, você deve:
+
+*  instanciar um País e apresentar na tela seus dados. Acrescente uma instrução que me permita ler a informação, antes de prosseguir.
+*  instanciar um Gênero e apresentar na tela seus dados. Acrescente uma instrução que me permita ler a informação, antes de prosseguir.
+*  instanciar um "Canal de Tv" e apresentar na tela seus dados. Acrescente uma instrução que me permita ler a informação, antes de prosseguir.
+* instanciar uma Série e apresentar na tela seus dados. Acrescente uma instrução que me permita ler a informação, antes de prosseguir.
+* instanciar uma Sessão e apresentar na tela seus dados. Acrescente uma instrução que me permita ler a informação, antes de prosseguir.
+* instanciar um Episódio e apresentar na tela seus dados. Acrescente uma instrução que me permita ler a informação, antes de prosseguir.
 
 #### O projeto deve estar compilando e funcionando.
 
